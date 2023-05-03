@@ -1,5 +1,7 @@
 # Control-Robots-with-Natural-Language
 
+Based on Category Theory, I have defined categories of natural language and categories of topology, and have considered how to control robots by words by mapping natural language and topology. Although words and topology are inherently different, it is possible to map them by applying the functor of Category Theory.
+
 To control robots using category theory, we'll create two categories, one for natural language (Category_NL) and one for topology (Category_Topology). Then, we'll define functors between these categories to map sentences to robot movements. Here's a high-level overview of how to do it:
 
 Define Category_NL: This category has objects as sentences (strings) and morphisms as functions that relate these sentences.
