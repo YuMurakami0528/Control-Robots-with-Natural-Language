@@ -29,7 +29,9 @@ class ContinuousFunction:
         self.function = function
 
 # Define Functor F
+
 class FunctorF:
+
     def map_object(self, sentence):
         if sentence.content == "move_forward":
             return TopologicalSpace("forward")
